@@ -7,6 +7,9 @@
 
 A powerful and customizable logging library for node.js.
 
+
+system-agent-core 使用，移除 DateFormat，因為不支援 webpack 打包後的 bundle，所以 console 中 dateformat 閹割掉
+
 ===========
 ##Features
 -----
@@ -240,7 +243,7 @@ var logger = require('tracer').colorConsole({
 	        	   error : [f1, colors.red, colors.bold ]
 	           }
 	]
-});
+});dateformat
 
 ```
 
